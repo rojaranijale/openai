@@ -93,3 +93,4 @@ websockets==11.0.3
 yarl==1.9.4
 zipp==3.18.1
 langchain_chroma
+pysqlite3-binary
