@@ -8,7 +8,7 @@ from dotenv import load_dotenv,find_dotenv
 load_dotenv(find_dotenv())
 
 class EmbeddingGenerator:
-    def __init__(self, excel_file="de_All_ScrapedText_03_06.xlsx", chunk_size=500, chunk_overlap=50):
+    def __init__(self, excel_file="All_ScrapedText_03_06.xlsx", chunk_size=500, chunk_overlap=50):
         self.excel_file = excel_file
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
