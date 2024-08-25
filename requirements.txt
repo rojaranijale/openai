@@ -94,5 +94,5 @@ yarl==1.9.4
 zipp==3.18.1
 langchain_chroma
 streamlit==1.28.1
-chromadb==0.3.29
+chromadb==0.4.17
 pysqlite3-binary
