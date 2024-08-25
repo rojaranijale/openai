@@ -98,3 +98,4 @@ streamlit==1.28.1
 chromadb==0.4.17
 pysqlite3-binary
 unstructured
+networkx
