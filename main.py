@@ -20,7 +20,16 @@ def main():
     chatbot = ChatbotQA(retriever)
     chatbot.setup_chain()
     st_callback = StreamlitCallbackHandler(st.container())
-    st.title ("Car parts user recomendation system (Powered by OpenAI )")
+   #st.title ("Car parts user recomendation system (Powered by OpenAI )")
+    
+    st.markdown(
+        """
+        <h1 style='font-size:30px;'>
+        Car Parts User Recommendation System (Powered by OpenAI)
+        </h1>
+        """,
+        unsafe_allow_html=True
+    )
     if prompt := st.chat_input():
         st.chat_message("user").write(prompt)
         with st.chat_message("assistant"):
