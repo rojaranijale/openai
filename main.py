@@ -24,7 +24,7 @@ def main():
     
     st.markdown(
         """
-        <h1 style='font-size:20px;'>
+        <h1 style='font-size:25px;'>
         Car Parts User Recommendation System (Powered by OpenAI)
         </h1>
         """,
